@@ -1,0 +1,29 @@
+.login {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  place-items: center;
+  height: 100vh;
+  background-color: white;
+}
+
+.login > img {
+  margin-top: -100px;
+  width: 800px;
+}
+
+.login > p{
+    margin-top: 35px;
+    font-weight: 800;
+
+}
+
+.login a {
+  padding: 20px;
+  margin-top: -40px;
+  background-color: #1db954;
+  border-radius: 99px;
+  font-weight: 800;
+  color: white;
+  text-decoration: none;
+}
